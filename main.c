@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) //параметр будет выведен с
 		return -1;
 	}
 	errno_t fp;
-	fp = fopen_s(&file, "C:\\rename.txt", "rt");
+	fp = fopen_s(&file, "text.txt", "rt");
 	/*элементы argv[1]...argv[argc - 1] содержат указатели на параметры командной строки.*/
 	while (!feof(file)) //печатаю
 	{
